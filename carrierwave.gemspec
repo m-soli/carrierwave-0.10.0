@@ -6,7 +6,7 @@ require 'carrierwave/version'
 require 'date'
 
 Gem::Specification.new do |s|
-  s.name = "carrierwave-alt"
+  s.name = "carrierwave"
   s.version = CarrierWave::VERSION
 
   s.authors = ["Jonas Nicklas"]
