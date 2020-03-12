@@ -6,7 +6,7 @@ require 'carrierwave/version'
 require 'date'
 
 Gem::Specification.new do |s|
-  s.name = "carrierwave"
+  s.name = "carrierwave-alt"
   s.version = CarrierWave::VERSION
 
   s.authors = ["Jonas Nicklas"]
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "sham_rack"
   s.add_development_dependency "mini_magick", ">= 3.6.0"
   s.add_development_dependency "rmagick"
-  s.add_development_dependency "nokogiri", "~> 1.5.10" # 1.6 requires ruby > 1.8.7
+  s.add_development_dependency "nokogiri", "~> 1.8"
   s.add_development_dependency "timecop", "0.6.1" # 0.6.2 requires ruby > 1.8.7
   s.add_development_dependency "generator_spec"
 end
